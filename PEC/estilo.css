@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffe6f0; /* Fondo rosa MUY claro */
+  margin: 0;
+  padding: 0 20px;
+}
+
+header, footer {
+  background-color: #f48fb1; /* Rosa claro pastel */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+h1 {
+  color: #ad1457; /* Rosa más fuerte para destacar el título */
+}
+
+img {
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  margin: 20px 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  background-color: #f48fb1; /* Botones en rosa pastel */
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+nav ul li a:hover {
+  background-color: #ec407a; /* Rosa más fuerte al pasar el mouse */
+}
+
+a {
+  color: #d81b60;
+  font-weight: bold;
+  text-decoration: none;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffe6f0; /* Rosa claro */
+  margin: 0;
+  padding: 0 20px;
+}
+
+header, footer {
+  background-color: #f48fb1; /* Rosa pastel */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+h1 {
+  color: #ad1457; /* Rosa fuerte */
+}
+
+img {
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.botonera {
+  margin: 20px 0;
+}
+
+.boton {
+  background-color: #f48fb1;
+  color: white;
+  padding: 12px 25px;
+  margin: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+  background-color: #ec407a;
+}
+
